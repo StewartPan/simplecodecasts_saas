@@ -44,6 +44,7 @@ gem 'bootstrap-sass', '~> 3.3.1'
 
 gem 'mail', '2.5.4'
 
+gem 'devise', '3.4.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 
