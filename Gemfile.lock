@@ -131,6 +131,7 @@ DEPENDENCIES
   font-awesome-sass (= 4.2.0)
   jbuilder (= 2.0)
   jquery-rails
+  mail (= 2.5.4)
   pg
   rails (= 4.1.0)
   rails_12factor
