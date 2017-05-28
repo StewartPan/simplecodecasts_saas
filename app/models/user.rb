@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   def save_with_payment
     if valid?
       customer = Stripe::Customer.create(description: email, plan: plan_id, source: stripe_card_token)
-      self.stripe_customer_token = customer.idhttps://ide.c9.io/bikeranger/coder-manul-rails
+      self.stripe_customer_token = customer.id
       save!
     end
   end
