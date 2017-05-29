@@ -56,6 +56,9 @@ gem 'paperclip', '4.2.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
+# Use S3 to store avatar image for users
+gem 'aws-sdk', '~> 2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 
