@@ -1,31 +1,11 @@
 == README
+Ruby on Rails based Dev Match Web Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Implemented the web service with Ruby, Rails, MongoDB, React, Bootstrap.
 
-Subscription-based web application
-http://codermanual.com
+* Designed the frontend with Yarn, Bootstrap and Webpacker. 
 
-Things you may want to cover:
+* Implemented MVC backend with Rails 5.1 on MongoDB with Redis as web cache.
 
-* Ruby version
+* Used Devise/Stripe gem to implement 3rd party user authentication and user payment.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
